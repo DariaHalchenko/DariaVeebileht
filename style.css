@@ -120,13 +120,13 @@ main {
     color: #ff1493;
 }
 .section-center {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
     border-radius: 15px;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
     transition: transform 0.3s ease, background 0.3s ease;
     overflow: hidden;
 }
