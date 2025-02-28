@@ -6,7 +6,6 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
 header {
     background: linear-gradient(to top right, #66ffff 29%, #ffccff 83%);
     text-align: center;
@@ -120,15 +119,16 @@ main {
     color: #ff1493;
 }
 .section-center {
-    width: 70%;
-    margin: 0 auto;
+    width: 60%;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 30px;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
     transition: transform 0.3s ease, background 0.3s ease;
     overflow: hidden;
+    margin: 0 auto;
+    display: block;
 }
 .section-center:hover {
     transform: scale(1.05);
@@ -140,6 +140,7 @@ main {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
+    text-align: center;
     transition: color 0.3s ease;
 }
 .section-center:hover h2 {
